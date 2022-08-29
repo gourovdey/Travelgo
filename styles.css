@@ -1,0 +1,679 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.list_items{
+    padding: 0 3%;
+}
+.nav-item{
+    padding: 0 1%;
+}
+
+.button-div{
+    padding-left: 1%;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.trial{
+    padding: 2%;
+}
+
+.nav-button button{
+    margin: 10px;
+}
+
+.logo{
+    margin-right: 10px;
+}
+
+
+
+/* Title */
+.deepshit img,.deepshit h3{
+    display: inline-block;
+    margin-bottom: 0;
+
+}
+
+.deepshit h3{
+    margin-top: 1%;
+    font-size: 1.2rem;
+    color: #FF9F29;
+}
+
+.deepshit img{
+    margin-top: 0%;
+}
+
+#title{
+    background-image: url("images/title-background.png");
+    /*background-image: url("https://www.shareicon.net/data/256x256/2016/06/01/576694_background_600x600.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    /*background-color: #79DAE8;*/
+}
+
+.arrow{
+    width: 5%;
+}
+
+.titleRow{
+    margin: 0%;
+    padding: 1%;
+}
+.titleCol{
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+    text-align: center;
+    padding: 3%;
+}
+.travelling-girl{
+    width: 100%;
+    height: 100%;
+}
+
+.para{
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+}
+
+.title-content h1{
+    color: #fff;
+}
+
+/*  About  */
+
+
+.outer{
+    padding: 4% 1%;
+}
+
+.card{
+    border:none;
+}
+
+.card-body{
+    padding-left: 0;
+}
+
+.custom h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0%;
+    height: 30rem;
+}
+
+.about-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    height: 30rem;
+}
+
+.about-image img{
+    width: 100%;
+}
+
+.para{
+    font-size: 1.2rem;
+}
+
+/* What we provide */
+
+.whole{
+    padding: 0 1%; 
+}
+
+.provided{
+    text-align: center;
+}
+
+.provided h1{
+    padding-top: 3%;
+}
+.provided p{
+    padding-top: 1.5%;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+.card-provided{
+    padding: 3% 1%;
+}
+
+.husk{
+    background-color:rgb(223, 221, 221);
+    border-radius: 10px;
+    padding: 7%;
+    text-align: center;
+}
+
+.husk:hover{
+    background-color:#66BFBF;
+    color:white;
+}
+
+.left-cell{
+    padding-left: 5%;
+}
+.right-cell{
+    padding-right: 5%;
+}
+.mid-cell{
+    padding: 0 3%;
+}
+
+.arrow6{
+    width: 2.5%;
+}
+
+
+
+/*  Destination  */
+
+.destin-container{
+   padding: 2% 1%;
+}
+
+
+.fcontainer{
+    text-align: center;
+}
+
+
+.fitem2 p{
+    padding: 2%;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+.destin-button{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.destiny-images{
+    width: 100%;
+    height: 100%;
+}
+
+.all-image{
+    padding-top: 3%;
+}
+
+.cardipic1{
+    background-image: url("images/srilankabeach.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 12px 4px  8px darkgrey;
+    height: 50vh;
+}
+
+.cardipic2{
+    background-image: url("images/maldivesbeach.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 12px 4px  8px darkgrey;
+    height: 50vh;
+}
+.cardipic3{
+    background-image: url("images/malayasiabeach.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 12px 4px  8px darkgrey;
+    height: 50vh;
+}
+.cardipic4{
+    background-image: url("images/mountain1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 12px 4px  8px darkgrey;
+    height: 50vh;
+}
+.cardipic5{
+    background-image: url("images/mountain2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 12px 4px  8px darkgrey;
+    height: 50vh;
+}
+.cardipic6{
+    background-image: url("images/mountain3.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 12px 4px  8px darkgrey;
+    height: 50vh;
+}
+
+.all-image,.lol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.lol{
+    height: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating p{
+    margin: 0;
+}
+
+.footer-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 217, 217);
+    padding-right: 3%;
+    padding-left: 3%;
+    border-radius: 5%;
+}
+
+.rating-icon i{
+   color: gold;
+}
+
+.footy{
+    background-color: rgb(253, 253, 253);
+}
+
+
+/*  Testimonials  */
+
+.arrow9{
+    width: 2.5%; 
+}
+
+.testimonial-row{
+    margin: 0%;
+    padding: 4% 1%; 
+}
+.blaze{
+    text-align: center;
+    background-color: #66BFBF;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.spacer{
+   padding-top: 5%;
+   text-align:center;
+}
+
+.travel-girly,.trouble{
+    width: 100%;
+    height: 100%;
+}
+
+.trouble{
+    padding: 3%;
+}
+
+
+
+
+
+
+/*  Footer   */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+.footer-para{
+    padding-top: 3%;
+    padding-bottom: 0%;
+}
+
+/* Section */
+
+section{
+    padding: 5%;
+}
+
+#title{
+    padding-top: 0%;
+}
+#we-provide{
+    padding-top: 0%;
+}
+
+
+/*  Arrows */
+.arrow1,.arrow2{
+    width: 2.5%; 
+}
+
+
+
+
+
+
+
+/* Media Query */
+@media screen and (max-width: 768px){
+
+    /* About */
+    .about-image{
+        text-align: center;
+    }
+
+    /* What we provide  */
+    .provided h1{
+        text-align: left;
+    }
+    .provided p{
+        text-align: justify;
+    }
+
+    .card-provided{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        
+    }
+
+    .left-cell{
+    
+        padding: 3%;
+        width: 70%;
+    }
+    .right-cell{
+        padding: 3%;
+        width: 70%;
+    }
+    .mid-cell{
+        padding: 3%;
+        width: 70%;
+    }
+
+    /* Destination */
+    .fcontainer{
+        display: flex;
+        flex-direction: column;
+        align-content:center;
+        justify-content:center;
+        text-align: center;
+    }
+
+    
+
+    .fitem2{
+        text-align: center;
+        margin: 1px;
+    }
+
+    .cardipic1, .cardipic2, .cardipic3, .cardipic4, .cardipic5, .cardipic6{
+        height: 30vh;
+    }
+
+    
+    /*Testimonials*/
+
+    .trouble{
+        width: 95%;
+        height: 95%;
+    }
+
+    .travel-girly{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: flex-end;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    
+    /*Destination*/
+
+    .cardipic1,.cardipic2,.cardipic3,.cardipic4,.cardipic5,.cardipic6{
+        height: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    
+    /* Title */
+
+    .titleRow{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1220px) and (min-width: 992px){
+    
+    h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    /*About*/
+
+    .about-content{
+        padding-top: 10%;
+        text-align: center;
+    }
+    .outer{
+        padding-top: 15%;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    
+    /*About*/
+
+    .about-content{
+        padding-top: 40%;
+        text-align: center;
+    }
+
+    /*Destination*/
+
+
+}
+
+    
+@media screen and (min-width: 1400px) {
+    
+    /*Testimonials*/
+
+    .trouble{
+        height: 65vh;
+    }
+}
+@media screen and (max-width: 998px) {
+    .nav-contents{
+        text-align: right;
+    }
+    .button-div{
+        text-align: right;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 988px) {
+
+    /*About*/
+    .about_heading{
+        margin-top: 10%;
+    }
+
+    /*What we provide*/
+
+    .left-cell, .mid-cell, .right-cell{
+        padding: 2% 5%;
+    }
+    
+    /*Testimonials*/
+
+    .testimonial-heading{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    /*What we provide*/
+    .whole{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    /*What we provide*/
+    .whole{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    
+    /* About */
+    .outer{
+        padding-top: 0%;
+    }
+
+    .about_heading{
+        margin-top: 35%;
+    }
+
+    .credition{
+        margin-top: 1%;
+    }
+    
+    /*What we provide*/
+
+    #we-provide{
+        margin-top: 25%;
+    }
+    .whole{
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    /*What we provide*/
+
+    #we-provide{
+        padding-top: 25%;
+    }
+
+    .provided h1, .provided p{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 638px) {
+
+    /*What we provide*/
+
+    #we-provide{
+        padding-top: 35%;
+    }
+    
+}
+
+@media screen and (max-width: 542px) {
+
+    /*What we provide*/
+
+    #we-provide{
+        padding-top: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 1190px) {
+    /* About */
+    .para{
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    /* Navigation Bar */
+    .navbar-toggler{
+        border-left-width: 1px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    /* About */
+    .about_heading{
+        margin-top: 40%;
+    }
+
+    /*  What we provide */
+
+    #we-provide{
+        margin-top: 35%;
+    }
+}
